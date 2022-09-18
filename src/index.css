@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    font-size: 1em; 
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background-color: #D4D4D8; 
+    font-weight: 600;
+    padding: 4px 15px;
+    border-radius: 20px; 
+    border: 2px solid black;
+  }
+  .btnn {
+    font-size: 20px; 
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background-color: #D4D4D8; 
+    padding: 2px 13px;  
+  }
+  .btnn:hover{
+    color: white; 
+    background-color: #9CA3AF;
+  }
+  .btn:hover {
+    background: white;
+    color: black;
+    border: 2px solid #D4D4D8;
+  }
+
+.iimg:hover{ 
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+img{
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+.tr{
+  
+  transform:rotate(39deg);
+}
